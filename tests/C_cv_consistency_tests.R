@@ -4,6 +4,7 @@ source("units/generate_data.R")
 # warnings = errors
 options(warn=2)
 
+suppressWarnings(RNGversion("3.5.0")) # package predates R 3.6.0's sample() default change
 set.seed(100) #  ensures consistency of tests
 
 ## Simulate from Y=XB+E, the dimension of Y is N x K, X is N x p, B is p x K

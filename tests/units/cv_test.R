@@ -61,11 +61,11 @@ if( ! all.equal(dimnames(Y), dimnames(fit$Y.true)) ) stop()
       if( ! is.null(dimnames(r)) ) {
 
         stopifnot( ! is.null(data$response_names) &&
-          colnames(r) == data$response_names
+          all(colnames(r) == data$response_names)
         )
 
         stopifnot( ! is.null(data$sample_names) &&
-          rownames(r) == data$sample_names
+          all(rownames(r) == data$sample_names)
         )
 
       } else {
@@ -86,7 +86,7 @@ if( ! all.equal(dimnames(Y), dimnames(fit$Y.true)) ) stop()
         )
 
         stopifnot( ! is.null(data$sample_names) &&
-          rownames(r) == data$sample_names
+          all(rownames(r) == data$sample_names)
         )
 
       } else {

@@ -227,7 +227,7 @@ bool inline is_finite(double const& x) {
 
 template<>
 bool inline is_finite(vector const& x) {
-        return arma::is_finite(x);
+        return x.is_finite();
 }
 
 template<>
@@ -237,12 +237,12 @@ bool inline is_finite(block_vector const& x) {
 
 template<>
 bool inline is_finite(matrix const& x) {
-        return arma::is_finite(x);
+        return x.is_finite();
 }
 
 template<>
 bool inline is_finite(sparse_matrix const& x) {
-        return arma::is_finite(x);
+        return x.is_finite();
 }
 
 

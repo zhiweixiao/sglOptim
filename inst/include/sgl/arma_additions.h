@@ -43,7 +43,7 @@ namespace arma {
           const uword y_n_cols = y.n_cols;
           const uword y_n_nonzero = y.n_nonzero;
 
-          arma_debug_check
+          arma_conform_check
             (
             ( (y_n_rows != x_n_rows) && ( (y_n_rows > 0) || (y_n_cols > 0) ) && ( (x_n_rows > 0) || (x_n_cols > 0) ) ),
             "join_rows(): number of rows must be the same"
