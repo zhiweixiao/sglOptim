@@ -2,10 +2,11 @@ Package: sglOptim
 Type: Package
 Title: Generic Sparse Group Lasso Solver
 Version: 1.3.8
-Date: 2019-05-07
+Date: 2026-07-29
 Authors@R: c(
         person("Martin", "Vincent", role = "aut"),
-        person("Niels", "Richard Hansen", email = "niels.r.hansen@math.ku.dk", role = c("ctb", "cre"))
+        person("Niels", "Richard Hansen", email = "niels.r.hansen@math.ku.dk", role = "ctb"),
+        person("Zhiwei", "Xiao", email = "xzhiwei@berkeley.edu", role = c("ctb", "cre"))
         )
 Description: Fast generic solver for sparse group lasso optimization
         problems. The loss (objective) function must be defined in a

@@ -1,6 +1,6 @@
 ## Sparse Group Lasso Solver
 
-This is the R package sglOptim version **1.3.7**.
+This is the R package sglOptim version **1.3.8**.
 
 ### R-package Overview
 
@@ -39,7 +39,7 @@ the `build_vignettes = TRUE` argument.
 
 ### Author
 
-Martin Vincent wrote the package. Niels Richard Hansen is the current
+Martin Vincent wrote the package. Zhiwei Xiao is the current
 maintainer.
 
 ### License
