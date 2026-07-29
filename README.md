@@ -31,7 +31,7 @@ Install the package from GitHub:
 
 ``` r
 # install.packages("remotes") # uncomment if remotes is not already installed
-remotes::install_github("nielsrhansen/sglOptim", build_vignettes = TRUE)
+remotes::install_github("zhiweixiao/sglOptim", build_vignettes = TRUE)
 ```
 
 If you don’t want to build the vignettes when installing, just remove
