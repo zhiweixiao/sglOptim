@@ -4,8 +4,13 @@
 \alias{compute_error}
 \title{Helper function for computing error rates}
 \usage{
-compute_error(x, response_name, true_response, loss,
-  transposed_response = FALSE)
+compute_error(
+  x,
+  response_name,
+  true_response,
+  loss,
+  transposed_response = FALSE
+)
 }
 \arguments{
 \item{x}{sgl object containing responses}

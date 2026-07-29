@@ -4,8 +4,13 @@
 \alias{linear_test_block_diagonal_sgl_test_R}
 \title{C interface}
 \usage{
-linear_test_block_diagonal_sgl_test_R(data, block_dim, groupWeights,
-  parameterWeights, algorithm.config)
+linear_test_block_diagonal_sgl_test_R(
+  data,
+  block_dim,
+  groupWeights,
+  parameterWeights,
+  algorithm.config
+)
 }
 \description{
 C interface

@@ -24,7 +24,7 @@ can then be implemented on top of this package by specifying the details on
 loss function computation. This is largely done via macros and the implementation
 of a class representing the loss and its derivatives. The package exploits 
 efficient numerical linear algebra algorithms, including sparse matrix linear 
-algebra, via the C++ template library [Armadillo](http://arma.sourceforge.net) 
+algebra, via the C++ template library [Armadillo](https://arma.sourceforge.net/)
 that is available in R via the RcppArmadillo package. 
 
 Compiling source code in a package using sglOptim will provide   

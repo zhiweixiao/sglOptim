@@ -20,11 +20,13 @@ a sgldata object with the covariates reordered
 Rearrange the order of the covariates in a sgldata object.
 }
 \seealso{
-Other sgldata: \code{\link{add_data.sgldata}},
-  \code{\link{create.sgldata}},
-  \code{\link{prepare.args.sgldata}},
-  \code{\link{prepare.args}}, \code{\link{prepare_data}},
-  \code{\link{subsample.sgldata}}
+Other sgldata: 
+\code{\link{add_data.sgldata}()},
+\code{\link{create.sgldata}()},
+\code{\link{prepare.args}()},
+\code{\link{prepare.args.sgldata}()},
+\code{\link{prepare_data}()},
+\code{\link{subsample.sgldata}()}
 }
 \author{
 Martin Vincent

@@ -2,10 +2,13 @@
 \title{News for Package 'sglOptim'}
 
 
-\section{Changes in sglOptim version 1.3.8 (2026-07-29)}{
+\section{Changes in sglOptim version 1.3.9 (2026-07-29)}{
 \itemize{
 \item Previous maintainer, Niels Richard Hansen, has stopped active development. This version is released by a new maintainer, Zhiwei Xiao.
 \item Compile-compatibility fix: dropped the redundant \code{<MATRIX, VECTOR>} template-argument list on constructor declarations inside the \code{BlockVector} class body.
+\item Fixed a CRAN Rd-formatting NOTE (\\itemize used with named items instead of \\describe) in \code{sgl_predict} and \code{sgl_subsampling} documentation.
+\item Modernized \code{inst/CITATION} to use \code{bibentry()}/\code{c(person(...))} instead of the deprecated \code{citEntry()}/\code{personList()}.
+\item Updated a stale HTTP link and removed a URL blocked by the publisher, addressing CRAN's URL checks.
 }
 }
 

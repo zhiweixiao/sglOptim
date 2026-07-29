@@ -31,12 +31,13 @@ The group weights \eqn{\gamma \in [0,\infty)^m} and the parameter weights \eqn{\
 \seealso{
 prepare.args.sgldata
 
-Other sgldata: \code{\link{add_data.sgldata}},
-  \code{\link{create.sgldata}},
-  \code{\link{prepare.args.sgldata}},
-  \code{\link{prepare_data}},
-  \code{\link{rearrange.sgldata}},
-  \code{\link{subsample.sgldata}}
+Other sgldata: 
+\code{\link{add_data.sgldata}()},
+\code{\link{create.sgldata}()},
+\code{\link{prepare.args.sgldata}()},
+\code{\link{prepare_data}()},
+\code{\link{rearrange.sgldata}()},
+\code{\link{subsample.sgldata}()}
 }
 \author{
 Martin Vincent

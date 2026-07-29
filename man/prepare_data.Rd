@@ -4,8 +4,12 @@
 \alias{prepare_data}
 \title{Prepare a sgldata data object}
 \usage{
-prepare_data(x, default = NULL, type = "numeric", sparse = is(x,
-  "sparseMatrix"))
+prepare_data(
+  x,
+  default = NULL,
+  type = "numeric",
+  sparse = is(x, "sparseMatrix")
+)
 }
 \arguments{
 \item{x}{the matrix,}
@@ -20,12 +24,13 @@ prepare_data(x, default = NULL, type = "numeric", sparse = is(x,
 Creates a sgldata data object from a matrix or vector
 }
 \seealso{
-Other sgldata: \code{\link{add_data.sgldata}},
-  \code{\link{create.sgldata}},
-  \code{\link{prepare.args.sgldata}},
-  \code{\link{prepare.args}},
-  \code{\link{rearrange.sgldata}},
-  \code{\link{subsample.sgldata}}
+Other sgldata: 
+\code{\link{add_data.sgldata}()},
+\code{\link{create.sgldata}()},
+\code{\link{prepare.args}()},
+\code{\link{prepare.args.sgldata}()},
+\code{\link{rearrange.sgldata}()},
+\code{\link{subsample.sgldata}()}
 }
 \author{
 Martin Vincent

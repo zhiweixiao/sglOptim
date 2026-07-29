@@ -4,10 +4,19 @@
 \alias{sgl_lambda_sequence}
 \title{Computing a Lambda Sequence}
 \usage{
-sgl_lambda_sequence(module_name, PACKAGE, data, parameterGrouping = NULL,
-  groupWeights = NULL, parameterWeights = NULL, alpha, d = 100,
-  lambda.min, algorithm.config = sgl.standard.config,
-  lambda.min.rel = FALSE)
+sgl_lambda_sequence(
+  module_name,
+  PACKAGE,
+  data,
+  parameterGrouping = NULL,
+  groupWeights = NULL,
+  parameterWeights = NULL,
+  alpha,
+  d = 100,
+  lambda.min,
+  algorithm.config = sgl.standard.config,
+  lambda.min.rel = FALSE
+)
 }
 \arguments{
 \item{module_name}{reference to objective specific C++ routines.}

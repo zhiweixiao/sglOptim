@@ -4,8 +4,15 @@
 \alias{sgl_predict}
 \title{Predict}
 \usage{
-sgl_predict(module_name, PACKAGE, object, data, responses = NULL,
-  auto_response_names = TRUE, ...)
+sgl_predict(
+  module_name,
+  PACKAGE,
+  object,
+  data,
+  responses = NULL,
+  auto_response_names = TRUE,
+  ...
+)
 }
 \arguments{
 \item{module_name}{reference to objective specific C++ routines.}
@@ -34,28 +41,28 @@ Predict and return responses as defined in the module.
 If no formating is done (i.e. if \code{responses = NULL})
 then the \code{responses} field contains a list of lists structured in the following way:
 
-\itemize{
+\describe{
 \item{sample 1}{
-	\itemize{
+	\describe{
  \item{model (lambda) index 1}{
   	\itemize{
-      \item{}{response elements}
+      \item response elements
 	 }}
  \item{model (lambda) index 2}{
   	\itemize{
-      \item{}{response elements}
+      \item response elements
 	 }}
  \item{...}{}
 }}
 \item{sample 2}{
-	\itemize{
+	\describe{
  \item{model (lambda) index 1}{
   	\itemize{
-      \item{}{response elements}
+      \item response elements
 	 }}
  \item{model (lambda) index 2}{
   	\itemize{
-      \item{}{response elements}
+      \item response elements
 	 }}
  \item{...}{}
  }}

@@ -4,9 +4,16 @@
 \alias{prepare.args.sgldata}
 \title{Prepare sgl function arguments}
 \usage{
-\method{prepare.args}{sgldata}(data, parameterGrouping = NULL,
-  groupWeights = NULL, parameterWeights = NULL,
-  parameterNames = NULL, alpha, test_data = NULL, ...)
+\method{prepare.args}{sgldata}(
+  data,
+  parameterGrouping = NULL,
+  groupWeights = NULL,
+  parameterWeights = NULL,
+  parameterNames = NULL,
+  alpha,
+  test_data = NULL,
+  ...
+)
 }
 \arguments{
 \item{data}{a sgldata object}
@@ -29,11 +36,13 @@
 Prepare sgl function arguments using sgldata.
 }
 \seealso{
-Other sgldata: \code{\link{add_data.sgldata}},
-  \code{\link{create.sgldata}}, \code{\link{prepare.args}},
-  \code{\link{prepare_data}},
-  \code{\link{rearrange.sgldata}},
-  \code{\link{subsample.sgldata}}
+Other sgldata: 
+\code{\link{add_data.sgldata}()},
+\code{\link{create.sgldata}()},
+\code{\link{prepare.args}()},
+\code{\link{prepare_data}()},
+\code{\link{rearrange.sgldata}()},
+\code{\link{subsample.sgldata}()}
 }
 \author{
 Martin Vincent

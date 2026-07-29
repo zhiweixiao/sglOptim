@@ -20,11 +20,13 @@ a sgldata
 Pick out a subsample of a sgldata object
 }
 \seealso{
-Other sgldata: \code{\link{add_data.sgldata}},
-  \code{\link{create.sgldata}},
-  \code{\link{prepare.args.sgldata}},
-  \code{\link{prepare.args}}, \code{\link{prepare_data}},
-  \code{\link{rearrange.sgldata}}
+Other sgldata: 
+\code{\link{add_data.sgldata}()},
+\code{\link{create.sgldata}()},
+\code{\link{prepare.args}()},
+\code{\link{prepare.args.sgldata}()},
+\code{\link{prepare_data}()},
+\code{\link{rearrange.sgldata}()}
 }
 \author{
 Martin Vincent

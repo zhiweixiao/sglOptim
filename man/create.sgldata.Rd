@@ -4,10 +4,16 @@
 \alias{create.sgldata}
 \title{Create a sgldata object}
 \usage{
-create.sgldata(x, y, response_dimension = .get_response_dimension(y),
-  response_names = .get_response_names(y), sparseX = is(x,
-  "sparseMatrix"), sparseY = is(y, "sparseMatrix"),
-  typeX = element_class(x), typeY = element_class(y))
+create.sgldata(
+  x,
+  y,
+  response_dimension = .get_response_dimension(y),
+  response_names = .get_response_names(y),
+  sparseX = is(x, "sparseMatrix"),
+  sparseY = is(y, "sparseMatrix"),
+  typeX = element_class(x),
+  typeY = element_class(y)
+)
 }
 \arguments{
 \item{x}{the design matrix, a matrix of size \eqn{N \times p} (will be parsed to the loss module as \code{X}).}
@@ -30,11 +36,13 @@ create.sgldata(x, y, response_dimension = .get_response_dimension(y),
 Creates a sgldata object from a design matrix and an optional response vector or matrix.
 }
 \seealso{
-Other sgldata: \code{\link{add_data.sgldata}},
-  \code{\link{prepare.args.sgldata}},
-  \code{\link{prepare.args}}, \code{\link{prepare_data}},
-  \code{\link{rearrange.sgldata}},
-  \code{\link{subsample.sgldata}}
+Other sgldata: 
+\code{\link{add_data.sgldata}()},
+\code{\link{prepare.args}()},
+\code{\link{prepare.args.sgldata}()},
+\code{\link{prepare_data}()},
+\code{\link{rearrange.sgldata}()},
+\code{\link{subsample.sgldata}()}
 }
 \author{
 Martin Vincent

@@ -1,6 +1,6 @@
 ## Sparse Group Lasso Solver
 
-This is the R package sglOptim version **1.3.8**.
+This is the R package sglOptim version **1.3.9**.
 
 ### R-package Overview
 

@@ -4,7 +4,9 @@
 \name{sgl.standard.config}
 \alias{sgl.standard.config}
 \title{Standard algorithm configuration}
-\format{An object of class \code{list} of length 15.}
+\format{
+An object of class \code{list} of length 15.
+}
 \usage{
 sgl.standard.config
 }

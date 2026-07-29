@@ -4,8 +4,15 @@
 \alias{add_data.sgldata}
 \title{Add data to a sgldata data object}
 \usage{
-\method{add_data}{sgldata}(data, x, name, default = NULL,
-  type = element_class(x), sparse = is(x, "sparseMatrix"), ...)
+\method{add_data}{sgldata}(
+  data,
+  x,
+  name,
+  default = NULL,
+  type = element_class(x),
+  sparse = is(x, "sparseMatrix"),
+  ...
+)
 }
 \arguments{
 \item{data}{sgldata object}
@@ -26,11 +33,13 @@
 Addes a data to a sgldata data object
 }
 \seealso{
-Other sgldata: \code{\link{create.sgldata}},
-  \code{\link{prepare.args.sgldata}},
-  \code{\link{prepare.args}}, \code{\link{prepare_data}},
-  \code{\link{rearrange.sgldata}},
-  \code{\link{subsample.sgldata}}
+Other sgldata: 
+\code{\link{create.sgldata}()},
+\code{\link{prepare.args}()},
+\code{\link{prepare.args.sgldata}()},
+\code{\link{prepare_data}()},
+\code{\link{rearrange.sgldata}()},
+\code{\link{subsample.sgldata}()}
 }
 \author{
 Martin Vincent

@@ -12,3 +12,6 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
 ^tests$
+^\.claude$
+^cran-comments\.md$
+^\.github$

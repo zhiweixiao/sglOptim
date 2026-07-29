@@ -26,28 +26,28 @@
 #' @details If no formating is done (i.e. if \code{responses = NULL})
 #' then the \code{responses} field contains a list of lists structured in the following way:
 #'
-#'\itemize{
+#'\describe{
 #' \item{sample 1}{
-#' 	\itemize{
+#' 	\describe{
 #'	 \item{model (lambda) index 1}{
 #'   	\itemize{
-#'       \item{}{response elements}
+#'       \item response elements
 #'		 }}
 #'	 \item{model (lambda) index 2}{
 #'   	\itemize{
-#'       \item{}{response elements}
+#'       \item response elements
 #'		 }}
 #'	 \item{...}{}
 #'	}}
 #' \item{sample 2}{
-#' 	\itemize{
+#' 	\describe{
 #'	 \item{model (lambda) index 1}{
 #'   	\itemize{
-#'       \item{}{response elements}
+#'       \item response elements
 #'		 }}
 #'	 \item{model (lambda) index 2}{
 #'   	\itemize{
-#'       \item{}{response elements}
+#'       \item response elements
 #'		 }}
 #'	 \item{...}{}
 #'  }}

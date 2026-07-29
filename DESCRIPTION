@@ -1,10 +1,10 @@
 Package: sglOptim
 Type: Package
 Title: Generic Sparse Group Lasso Solver
-Version: 1.3.8
+Version: 1.3.9
 Date: 2026-07-29
 Authors@R: c(
-        person("Martin", "Vincent", role = "aut"),
+        person("Martin", "Vincent", role = c("aut", "cph")),
         person("Niels", "Richard Hansen", email = "niels.r.hansen@math.ku.dk", role = "ctb"),
         person("Zhiwei", "Xiao", email = "xzhiwei@berkeley.edu", role = c("ctb", "cre"))
         )
@@ -17,15 +17,15 @@ Description: Fast generic solver for sparse group lasso optimization
         computing for cross validation and subsampling is supported
         through the 'foreach' and 'doParallel' packages. Development
         version is on GitHub, please report package issues on GitHub.
-URL: https://dx.doi.org/10.1016/j.csda.2013.06.004,
-     https://github.com/nielsrhansen/sglOptim
-BugReports: https://github.com/nielsrhansen/sglOptim/issues
+URL: https://github.com/zhiweixiao/sglOptim
+BugReports: https://github.com/zhiweixiao/sglOptim/issues
 License: GPL (>= 2)
+Encoding: UTF-8
 LazyLoad: yes
 Imports: methods, stats, tools, utils
 Depends: R (>= 3.2.4), Matrix, foreach, doParallel
 LinkingTo: Rcpp, RcppProgress, RcppArmadillo, BH
 Suggests: knitr, rmarkdown
 VignetteBuilder: knitr
-RoxygenNote: 6.1.1
+RoxygenNote: 7.3.3
 NeedsCompilation: yes

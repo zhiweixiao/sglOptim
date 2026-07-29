@@ -25,10 +25,8 @@
 #' \item Navigating the models and computing error rates.
 #'}
 #'
-#' @docType package
-#' @author Martin Vincent 
-#' @name sglOptim
+#' @author Martin Vincent
 #' @importFrom tools assertError
 #' @importFrom tools assertWarning
 #' @importFrom stats runif
-NULL
+"_PACKAGE"

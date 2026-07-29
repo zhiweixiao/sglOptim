@@ -4,8 +4,15 @@
 \alias{sgl_test}
 \title{Test a sgl-Objective}
 \usage{
-sgl_test(module_name, PACKAGE, data, parameterGrouping, groupWeights,
-  parameterWeights, algorithm.config = sgl.standard.config)
+sgl_test(
+  module_name,
+  PACKAGE,
+  data,
+  parameterGrouping,
+  groupWeights,
+  parameterWeights,
+  algorithm.config = sgl.standard.config
+)
 }
 \arguments{
 \item{module_name}{reference to objective specific C++ routines.}
