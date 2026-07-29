@@ -182,7 +182,7 @@ public:
 
 	void set_matrix(T const& response) {
 		const_cast<T&>(this->response) = response;
-		const_cast<sgl::natural&>(this->n_groups) = response.n_cols;
+		const_cast<sgl::natural&>(this->n_responses) = response.n_cols;
 	}
 };
 
